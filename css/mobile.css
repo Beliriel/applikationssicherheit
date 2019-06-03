@@ -1,0 +1,102 @@
+/*--------------RESPONSIVE--------------------*/
+
+@media screen and (max-width: 999px) {
+
+    html{
+      overflow: hidden;
+    }
+
+    body {
+        margin: 0 auto;
+        padding: 0;
+        position: fixed;
+        left: 50%;
+        margin-left: -150px;
+        height: 100%;
+        width: 300px;
+    }
+
+    footer {
+        width: inherit;
+        margin: 0 0;
+        padding: 0;
+    }
+
+    nav {
+        height: 305px;
+        background-color: #236475;
+        padding: 0;
+        transition-property: display;
+        transition-duration: 0.3s;
+    }
+
+
+    #titel {
+        width: 100%;
+    }
+
+    #neuronlogo {
+        display: none;
+    }
+
+    .links_nav {
+        float: left;
+        margin-left: 12.5px;
+        margin-top: 12.5px;
+        width: 130px;
+        height: 60px;
+        padding: 0;
+    }
+
+    .rechts_nav {
+        float: right;
+        margin-right: 12.5px;
+        margin-top: 12.5px;
+        width: 130px;
+        height: 60px;
+        padding: 0;
+    }
+    .contact_label {
+        float: left;
+        width: 105px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .contact_formstuff {
+        float: left;
+        margin: 10px 0;
+        width: 170px;
+    }
+
+    #contact_textarea {
+        width: 80%;
+        max-width: 80%;
+    }
+
+    #sendbtn {
+        margin-left: 10%;
+    }
+
+    .bild_links, .bild_rechts {
+        width: 100%;
+    }
+
+    .bild_links_class, .bild_rechts_class {
+        height: 180px;
+    }
+
+    .section_basics {
+        padding: 0;
+    }
+
+    #img_neuron_top {
+        width: 50%;
+        float: none;
+        margin-left: 25%;
+        object-fit: contain;
+    }
+    .section_basics #img_neuron_top, .section_basics #img_neuron_bottom {
+        height: 150px;
+    }
+}

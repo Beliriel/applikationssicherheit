@@ -1,0 +1,356 @@
+html * {
+    color: #DCEFF5;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+html {
+    position: fixed;
+    width: 100%;
+    background-color: #001D29;
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    bottom: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    background-color: #013340;
+    height: 100%;
+    overflow: auto;
+}
+
+main {
+     overflow: auto;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer, main {
+
+    background-color: #013340;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    font-weight:lighter;
+    font-size: 0.8em;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+button {
+  color: #000000;
+}
+
+.black-font {
+     color: #000000;
+}
+
+/*----------NAVIGATION-------------*/
+#navnburger {
+    background-color: #236475;
+    margin: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+#burgericon {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 9px 0;
+
+}
+
+#bb {
+    margin: 0;
+    padding: 0;
+}
+
+
+.burgerline {
+    width: 35px;
+    height: 5px;
+    background-color: #DCEFF5;
+    margin: 6px auto;
+}
+
+nav {
+    margin: 0;
+    height: 86px;
+    background-color: #236475;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: table;
+    background-color: #0099CC;
+    border-radius: 4px;
+}
+
+nav ul li:hover {
+    background-color: #DCEFF5;
+}
+
+nav ul li a {
+    width: 100%;
+    color: #001D29;
+    display: block;
+    text-align: center;
+    padding-top: 18%;
+
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav ul li:hover ul {
+    display: list-item;
+    padding: 0px;
+    margin: 18px 0 0 0 ;
+}
+
+nav ul li ul li {
+    float: top;
+    width: 100%;
+    padding: 10px 0;
+    margin: -7px 0 0px 0px;
+    font-size: 1em;
+    text-align: center;
+    background: #DCEFF5;
+}
+
+nav ul li ul li a {
+    padding: 0;
+    color: #001D29;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.links_nav {
+    float: left;
+    margin-left: 13px;
+    margin-top: 13px;
+    width: 110px;
+    height: 60px;
+    padding: 0;
+
+}
+
+.rechts_nav {
+    float: right;
+    margin-right: 13px;
+    margin-top: 13px;
+    width: 110px;
+    height: 60px;
+    padding: 0;
+}
+
+.activenav {
+    background-color: #93BBC2;
+}
+
+/*---------HEADER----------*/
+#headerr {
+    height: 210px;
+    overflow: auto;
+}
+
+#titel {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+
+#webseitentitel {
+    padding: 0;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+#webseitenuntertitel {
+    padding: 0;
+    margin-left: 40px;;
+}
+
+#neuronlogo {
+    float: right;
+    display: block;
+    height: 100%;
+    width: 30%;
+    background-image: url(../pictures/abstractneuron.jpg);
+}
+
+/*-------------CONTENT--------------*/
+
+main {
+    margin: 30px 10px;
+    overflow: visible;
+    height: 100%;
+}
+
+#wholeheader{
+    position: fixed;
+    width: inherit;
+    z-index: 99;
+}
+
+#abstandhalter_top{
+        height: 270px;
+        position: sticky;
+        z-index: -1;
+}
+
+.push_content {
+    height: 70px;
+}
+/*------------FOOTER---------------*/
+footer {
+    width: inherit;
+    z-index: 80;
+    background-color: #013340;
+    bottom: 0;
+    position: fixed;
+}
+
+#footertext {
+    margin: 0;
+    padding: 0;
+    font-size: 0.7em;
+}
+
+/*-------------CONTACT----------------*/
+.contact_label {
+    float: left;
+    width: 105px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    z-index: 1;
+}
+
+.contact_formstuff {
+    float: left;
+    margin: 10px 30px;
+    width: 350px;
+    z-index: 1;
+}
+
+.contact_formstuff input  {
+    color: #001D29;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contact_anmeldung {
+    text-align: center;
+    float: top;
+    overflow: auto;
+}
+
+#Anmeldung {
+    display: block;
+}
+
+#Registrierung {
+    display: none;
+}
+
+#login_notification_box{
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#login_notification_box p{
+    padding: 0;
+    margin: 0;
+}
+
+.breakerino {
+    clear: both;
+    margin:0;
+    padding:0;
+}
+
+.reg_chkbx{
+    text-align: none;
+}
+
+.contact_formstuff select, .contact_formstuff select option {
+    color: #001D29;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#maennlich, #weiblich, #chkb_parkour, #chkb_handball, #chkb_schwimmen {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 20px;
+
+}
+
+#loginbtn, #regbtn, #reg_activate_btn {
+
+}
+
+.btn_format {
+  color: #001D29;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+#aktivitat{
+    margin-top:30px;
+}
+
+#reg_pwdinfo, #reg_pwd_rep_info,  #reg_email_info{
+	text-align: center;
+	display: none;
+}
+#yes_email, #stimmt, #pwd_yes_correlation {
+	display: none;
+}
+
+#reg_pwdinfo ul {
+	font-size: 0.8em;
+}
+/*-------------------BASICS & ARTICLES---------------------*/
+.section_basics{
+    padding: 30px;
+    overflow: auto;
+}
+
+#img_neuron_bottom, #img_neuron_bottom1, #img_neuron_bottom2 {
+    margin: 0 25%;
+    width: 50%;
+    object-fit: contain;
+}

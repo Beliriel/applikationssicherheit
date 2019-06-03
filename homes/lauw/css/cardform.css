@@ -1,0 +1,49 @@
+#cf_cardform {
+    overflow: hidden;
+}
+
+.cf_row {
+    text-align: left !important;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.cf_left {
+    float: left;
+    width: 40%;
+}
+
+.cf_right {
+    float:right;
+    width: 60%;
+}
+
+.cf_right_fill {
+    width: 90%;
+}
+
+.cf_cardtype_chkbx {
+
+    padding-left: 5%;
+}
+
+.cf_row h3 {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.cf_row input {
+    margin:0;
+    padding:0;
+}
+
+/*----------SINGLE ELEMENTS-----------*/
+
+#cf_power, #cf_toughness {
+    width: 30%;
+}
+
+#cf_rarity {
+    font-size: 0.8em;
+}
